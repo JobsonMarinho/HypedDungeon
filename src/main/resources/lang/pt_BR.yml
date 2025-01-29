@@ -1,0 +1,84 @@
+messages:
+  prefix: "<gradient:#FF5555:#FFAA00>HypedDungeon</gradient> <dark_gray>»</dark_gray> "
+  reload:
+    success: "<green>Plugin recarregado com sucesso!</green>"
+    error: "<red>Erro ao recarregar o plugin. Verifique o console.</red>"
+
+errors:
+  no-permission: "<red>Você não tem permissão para fazer isso.</red>"
+  player-only: "<red>Este comando só pode ser usado por jogadores.</red>"
+  invalid-args: "<red>Argumentos inválidos. Use: {usage}</red>"
+  player-not-found: "<red>Jogador {player} não encontrado.</red>"
+  dungeon-not-found: "<red>Dungeon {dungeon} não encontrada.</red>"
+  requirements-not-met: "<red>Você não atende aos requisitos desta dungeon:</red>"
+
+dungeon:
+  names:
+    frozen_cave: "Caverna Congelada"
+    lost_temple: "Templo Perdido"
+  descriptions:
+    frozen_cave: "Uma caverna ancestral coberta de gelo eterno"
+    lost_temple: "Um templo antigo escondido na selva"
+  join:
+    success: "<green>Você entrou na dungeon {dungeon}!</green>"
+    full: "<red>A dungeon {dungeon} está cheia! (Máximo: {max} jogadores)</red>"
+    in-session: "<red>Você já está em uma dungeon!</red>"
+  leave:
+    success: "<green>Você saiu da dungeon!</green>"
+  start:
+    countdown: "<yellow>A dungeon começará em {time} segundos!</yellow>"
+    begin: "<green>A dungeon começou! Boa sorte!</green>"
+  checkpoint:
+    reached: "<green>Checkpoint {checkpoint} alcançado!</green>"
+  boss:
+    spawn: "<red>O boss {boss} apareceu!</red>"
+  complete: "<green>Parabéns! Você completou a dungeon {dungeon} em {time}!</green>"
+  fail: "<red>Dungeon falhou! Motivo: {reason}</red>"
+
+status:
+  waiting: "Aguardando"
+  starting: "Iniciando"
+  in-progress: "Em Progresso"
+  boss-fight: "Luta contra Boss"
+  finished: "Finalizada"
+  cancelled: "Cancelada"
+
+difficulty:
+  easy: "Fácil"
+  medium: "Médio"
+  hard: "Difícil"
+  elite: "Elite"
+
+rewards:
+  money: "<green>+{amount} moedas</green>"
+  xp: "<green>+{amount} XP</green>"
+  item: "<green>+{amount}x {item}</green>"
+
+mobs:
+  frozen_cave:
+    zombie: "<gradient:#00FFFF:#FFFFFF>Zumbi Congelado</gradient> <gray>Nv.{level}</gray>"
+    skeleton: "<gradient:#00FFFF:#FFFFFF>Esqueleto de Gelo</gradient> <gray>Nv.{level}</gray>"
+    spider: "<gradient:#00FFFF:#FFFFFF>Aranha da Geada</gradient> <gray>Nv.{level}</gray>"
+  lost_temple:
+    guardian: "<gradient:#FFD700:#FFA500>Guardião do Templo</gradient> <gray>Nv.{level}</gray>"
+    cursed_villager: "<gradient:#FFD700:#FFA500>Aldeão Amaldiçoado</gradient> <gray>Nv.{level}</gray>"
+    jungle_creeper: "<gradient:#FFD700:#FFA500>Creeper da Selva</gradient> <gray>Nv.{level}</gray>"
+
+requirements:
+  level: "<red>• Nível {level} necessário</red>"
+  completions: "<red>• Complete a dungeon {dungeon} {completions}x</red>"
+  best_time: "<red>• Melhor tempo na dungeon {dungeon}: {time}</red>"
+  achievement: "<red>• Conquista necessária: {achievement}</red>"
+
+player:
+  level_up: "<green>Parabéns! Você alcançou o nível {level}!</green>"
+  stats:
+    title: "<yellow>Suas Estatísticas:</yellow>"
+    mobs_killed: "<gray>• Mobs eliminados: {amount}</gray>"
+    bosses_killed: "<gray>• Bosses eliminados: {amount}</gray>"
+    deaths: "<gray>• Mortes: {amount}</gray>"
+    damage_dealt: "<gray>• Dano causado: {amount}</gray>"
+    damage_taken: "<gray>• Dano recebido: {amount}</gray>"
+    highest_damage: "<gray>• Maior dano: {amount}</gray>"
+    gold_earned: "<gray>• Ouro ganho: {amount}</gray>"
+    time_in_dungeons: "<gray>• Tempo em dungeons: {time}</gray>"

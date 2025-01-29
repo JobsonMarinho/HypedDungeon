@@ -1,0 +1,24 @@
+name: HypedDungeon
+version: '${version}'
+main: net.hypedmc.dungeon.HypedDungeon
+api-version: '1.20'
+authors: [HypedMC]
+description: Sistema avançado de Dungeons com mundos separados, mobs customizados e bosses
+depend: [Multiverse-Core]
+commands:
+  dungeon:
+    description: Comando principal do sistema de dungeons
+    aliases: [dg]
+    permission: hypeddungeon.use
+permissions:
+  hypeddungeon.*:
+    description: Dá acesso a todos os comandos do plugin
+    children:
+      hypeddungeon.use: true
+      hypeddungeon.admin: true
+  hypeddungeon.use:
+    description: Permite usar os comandos básicos do plugin
+    default: true
+  hypeddungeon.admin:
+    description: Permite usar os comandos administrativos do plugin
+    default: op

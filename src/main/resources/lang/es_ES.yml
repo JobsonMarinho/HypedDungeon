@@ -1,0 +1,84 @@
+messages:
+  prefix: "<gradient:#FF5555:#FFAA00>HypedDungeon</gradient> <dark_gray>»</dark_gray> "
+  reload:
+    success: "<green>¡Plugin recargado exitosamente!</green>"
+    error: "<red>Error al recargar el plugin. Revisa la consola.</red>"
+
+errors:
+  no-permission: "<red>No tienes permiso para hacer eso.</red>"
+  player-only: "<red>Este comando solo puede ser usado por jugadores.</red>"
+  invalid-args: "<red>Argumentos inválidos. Uso: {usage}</red>"
+  player-not-found: "<red>Jugador {player} no encontrado.</red>"
+  dungeon-not-found: "<red>Mazmorra {dungeon} no encontrada.</red>"
+  requirements-not-met: "<red>No cumples con los requisitos de esta mazmorra:</red>"
+
+dungeon:
+  names:
+    frozen_cave: "Cueva Congelada"
+    lost_temple: "Templo Perdido"
+  descriptions:
+    frozen_cave: "Una antigua cueva cubierta de hielo eterno"
+    lost_temple: "Un antiguo templo escondido en la jungla"
+  join:
+    success: "<green>¡Te has unido a la mazmorra {dungeon}!</green>"
+    full: "<red>¡La mazmorra {dungeon} está llena! (Máximo: {max} jugadores)</red>"
+    in-session: "<red>¡Ya estás en una mazmorra!</red>"
+  leave:
+    success: "<green>¡Has abandonado la mazmorra!</green>"
+  start:
+    countdown: "<yellow>¡La mazmorra comienza en {time} segundos!</yellow>"
+    begin: "<green>¡La mazmorra ha comenzado! ¡Buena suerte!</green>"
+  checkpoint:
+    reached: "<green>¡Punto de control {checkpoint} alcanzado!</green>"
+  boss:
+    spawn: "<red>¡El jefe {boss} ha aparecido!</red>"
+  complete: "<green>¡Felicitaciones! ¡Has completado la mazmorra {dungeon} en {time}!</green>"
+  fail: "<red>¡Mazmorra fallida! Razón: {reason}</red>"
+
+status:
+  waiting: "Esperando"
+  starting: "Comenzando"
+  in-progress: "En Progreso"
+  boss-fight: "Pelea con Jefe"
+  finished: "Terminada"
+  cancelled: "Cancelada"
+
+difficulty:
+  easy: "Fácil"
+  medium: "Media"
+  hard: "Difícil"
+  elite: "Élite"
+
+rewards:
+  money: "<green>+{amount} monedas</green>"
+  xp: "<green>+{amount} XP</green>"
+  item: "<green>+{amount}x {item}</green>"
+
+mobs:
+  frozen_cave:
+    zombie: "<gradient:#00FFFF:#FFFFFF>Zombi Congelado</gradient> <gray>Nv.{level}</gray>"
+    skeleton: "<gradient:#00FFFF:#FFFFFF>Esqueleto de Hielo</gradient> <gray>Nv.{level}</gray>"
+    spider: "<gradient:#00FFFF:#FFFFFF>Araña Helada</gradient> <gray>Nv.{level}</gray>"
+  lost_temple:
+    guardian: "<gradient:#FFD700:#FFA500>Guardián del Templo</gradient> <gray>Nv.{level}</gray>"
+    cursed_villager: "<gradient:#FFD700:#FFA500>Aldeano Maldito</gradient> <gray>Nv.{level}</gray>"
+    jungle_creeper: "<gradient:#FFD700:#FFA500>Creeper de la Jungla</gradient> <gray>Nv.{level}</gray>"
+
+requirements:
+  level: "<red>• Nivel {level} requerido</red>"
+  completions: "<red>• Completar mazmorra {dungeon} {completions}x veces</red>"
+  best_time: "<red>• Mejor tiempo en {dungeon}: {time}</red>"
+  achievement: "<red>• Logro requerido: {achievement}</red>"
+
+player:
+  level_up: "<green>¡Felicitaciones! ¡Has alcanzado el nivel {level}!</green>"
+  stats:
+    title: "<yellow>Tus Estadísticas:</yellow>"
+    mobs_killed: "<gray>• Monstruos eliminados: {amount}</gray>"
+    bosses_killed: "<gray>• Jefes derrotados: {amount}</gray>"
+    deaths: "<gray>• Muertes: {amount}</gray>"
+    damage_dealt: "<gray>• Daño causado: {amount}</gray>"
+    damage_taken: "<gray>• Daño recibido: {amount}</gray>"
+    highest_damage: "<gray>• Mayor daño: {amount}</gray>"
+    gold_earned: "<gray>• Oro ganado: {amount}</gray>"
+    time_in_dungeons: "<gray>• Tiempo en mazmorras: {time}</gray>"

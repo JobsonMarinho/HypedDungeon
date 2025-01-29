@@ -1,0 +1,16 @@
+# Database configuration
+# Supported types: MYSQL, MARIADB, POSTGRESQL
+type: MYSQL
+host: localhost
+port: 3306
+database: hypeddungeon
+username: root
+password: ""
+
+# Connection pool settings
+pool:
+  maxPoolSize: 10
+  minIdle: 2
+  idleTimeout: 300000  # 5 minutes
+  maxLifetime: 600000  # 10 minutes
+  connectionTimeout: 5000  # 5 seconds

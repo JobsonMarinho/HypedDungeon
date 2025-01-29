@@ -1,0 +1,131 @@
+dungeons:
+  frozen_cave:
+    name_key: "dungeon.names.frozen_cave"
+    description_key: "dungeon.descriptions.frozen_cave"
+    difficulty: EASY
+    min_level: 1
+    max_players: 4
+    min_players: 1
+    spawn-point:
+      world: dungeon_frozen_cave
+      x: 0
+      y: 64
+      z: 0
+      yaw: 0
+      pitch: 0
+    boss-spawn-points:
+      rei_gelado:
+        world: dungeon_frozen_cave
+        x: 100
+        y: 64
+        z: 100
+        yaw: 0
+        pitch: 0
+    mob-spawn-points:
+      - world: dungeon_frozen_cave
+        x: 20
+        y: 64
+        z: 20
+        yaw: 0
+        pitch: 0
+      - world: dungeon_frozen_cave
+        x: -20
+        y: 64
+        z: -20
+        yaw: 0
+        pitch: 0
+    checkpoints:
+      entrada:
+        world: dungeon_frozen_cave
+        x: 0
+        y: 64
+        z: 0
+        yaw: 0
+        pitch: 0
+      sala_boss:
+        world: dungeon_frozen_cave
+        x: 90
+        y: 64
+        z: 90
+        yaw: 0
+        pitch: 0
+    requirements:
+      - type: LEVEL
+        level: 1
+    rewards:
+      money: 1000.0
+      xp: 500.0
+      items:
+        - "glacial_sword:0.05"
+
+  lost_temple:
+    name_key: "dungeon.names.lost_temple"
+    description_key: "dungeon.descriptions.lost_temple"
+    difficulty: MEDIUM
+    min_level: 10
+    max_players: 4
+    min_players: 2
+    spawn-point:
+      world: dungeon_lost_temple
+      x: 0
+      y: 64
+      z: 0
+      yaw: 0
+      pitch: 0
+    boss-spawn-points:
+      guardiao_templo:
+        world: dungeon_lost_temple
+        x: 150
+        y: 64
+        z: 150
+        yaw: 0
+        pitch: 0
+    mob-spawn-points:
+      - world: dungeon_lost_temple
+        x: 30
+        y: 64
+        z: 30
+        yaw: 0
+        pitch: 0
+      - world: dungeon_lost_temple
+        x: -30
+        y: 64
+        z: -30
+        yaw: 0
+        pitch: 0
+    checkpoints:
+      entrada:
+        world: dungeon_lost_temple
+        x: 0
+        y: 64
+        z: 0
+        yaw: 0
+        pitch: 0
+      sala_armadilhas:
+        world: dungeon_lost_temple
+        x: 50
+        y: 64
+        z: 50
+        yaw: 0
+        pitch: 0
+      sala_boss:
+        world: dungeon_lost_temple
+        x: 140
+        y: 64
+        z: 140
+        yaw: 0
+        pitch: 0
+    requirements:
+      - type: LEVEL
+        level: 10
+      - type: COMPLETIONS
+        dungeon: frozen_cave
+        completions: 3
+      - type: BEST_TIME
+        dungeon: frozen_cave
+        time: 600000 # 10 minutes in milliseconds
+    rewards:
+      money: 2000.0
+      xp: 1000.0
+      items:
+        - "glacial_sword:0.05"
