@@ -24,9 +24,6 @@ dependencies {
     // Minecraft/Paper
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
     
-    // KotlinBukkitAPI
-    implementation("com.github.DevSrSouza:KotlinBukkitAPI:0.3.0")
-    
     // Guice
     implementation("com.google.inject:guice:7.0.0")
     

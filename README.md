@@ -1,35 +1,55 @@
+<img src="images/hypeddungeon.webp" alt="HypedDungeon" style="width:100%;">
+
 # HypedDungeon
 
-Advanced Minecraft Dungeon Plugin with separate worlds, custom mobs, bosses, and rewards.
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://dc.gladmc.com/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@GladMCOficial)
 
-## Features
+⚠️ **WARNING: PORTFOLIO PROJECT ONLY** ⚠️
 
-- Separate world system using Multiverse
-- Custom mobs and bosses
-- Reward system
-- Progression system
-- Integrated economy
-- Party system
-- Status interface
-- Rankings and achievements
+This is a demonstration project that showcases my development methodology for Minecraft plugins.
 
-## Requirements
+## ⚠️ Important Notice
 
-- Paper 1.20.4
-- Multiverse-Core
-- Java 17 or higher
+- **NOT RECOMMENDED FOR PRODUCTION USE**
+- **FOR ACADEMIC AND DEMONSTRATION PURPOSES ONLY**
+- **NO OFFICIAL SUPPORT**
+- **NO COMMITMENT TO UPDATES**
+- **PULL REQUESTS WILL NOT BE REVIEWED**
 
-## Commands
+## 🎯 Purpose
 
-- `/dungeon` or `/dg` - Main plugin command
+This project was created exclusively to demonstrate:
+- Plugin Architecture
+- Code Patterns
+- Development Best Practices
+- English Documentation
+- Dependency Injection System
+- Configuration Management
+- Internationalization System
 
-## Permissions
+## 🔧 Development
 
-- `hypeddungeon.use` - Allows using basic commands
-- `hypeddungeon.admin` - Allows using administrative commands
+If you wish to develop this project on your own, I recommend:
 
-## Building
+1. Fork the repository
+2. Implement a reflection system to support multiple Minecraft versions
+   - Or adapt the code to your specific server version
+3. Add unit tests
+4. Implement CI/CD
+5. Document changes
 
-1. Clone the repository
-2. Run `./gradlew build`
-3. The JAR file will be generated in `build/libs/`
+## 🚀 Technologies
+
+- Kotlin
+- Bukkit/Spigot API
+- Google Guice (Dependency Injection)
+- Gradle
+
+## 📝 License
+
+This project is under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Disclaimer
+
+This plugin was developed as part of my personal portfolio. There are no guarantees of functionality, support, or future updates. Use at your own risk.
